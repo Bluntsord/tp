@@ -58,7 +58,6 @@ public class EditCommand extends Command {
      * @param editPersonDescriptor details to edit the person with
      */
     public EditCommand(Index index, EditPersonDescriptor editPersonDescriptor) {
-        requireNonNull(index);
         requireNonNull(editPersonDescriptor);
 
         this.index = index;
